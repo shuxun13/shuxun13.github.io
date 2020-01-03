@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ishuxun.com</id>
-    <title>Gridea</title>
-    <updated>2020-01-03T02:38:22.864Z</updated>
+    <title>树寻</title>
+    <updated>2020-01-03T02:46:55.362Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ishuxun.com"/>
     <link rel="self" href="https://ishuxun.com/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>分享学习内容</subtitle>
     <logo>https://ishuxun.com/images/avatar.png</logo>
     <icon>https://ishuxun.com/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 树寻</rights>
     <entry>
         <title type="html"><![CDATA[测试网站]]></title>
         <id>https://ishuxun.com/post/ce-shi-wang-zhan</id>
