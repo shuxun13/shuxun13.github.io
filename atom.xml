@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ishuxun.com</id>
-    <title>https://ishuxun.com/images/avatar.png?v=1578366046800</title>
-    <updated>2020-01-07T03:05:11.602Z</updated>
+    <title></title>
+    <updated>2020-01-07T03:06:30.539Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ishuxun.com"/>
     <link rel="self" href="https://ishuxun.com/atom.xml"/>
     <subtitle>分享学习内容</subtitle>
     <logo>https://ishuxun.com/images/avatar.png</logo>
     <icon>https://ishuxun.com/favicon.ico</icon>
-    <rights>All rights reserved 2020, https://ishuxun.com/images/avatar.png?v=1578366046800</rights>
+    <rights>All rights reserved 2020, </rights>
     <entry>
         <title type="html"><![CDATA[win10 同步文件测试]]></title>
         <id>https://ishuxun.com/post/win10-tong-bu-wen-jian-ce-shi</id>
