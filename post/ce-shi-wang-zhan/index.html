@@ -19,6 +19,7 @@
 <script src="https://ishuxun.com/media/script/tocbot.min.js"></script>
 <script src="https://ishuxun.com/media/script/script.min.js"></script>
 <script src="https://ishuxun.com/media/script/icon.min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <link rel="stylesheet" href="https://ishuxun.com/media/live2d/css/live2d.css" />
 <script src="https://cdn.bootcss.com/highlight.js/9.13.1/highlight.min.js"></script>
 <link href="https://cdn.bootcss.com/highlight.js/9.13.1/styles/atelier-estuary-dark.min.css" rel="stylesheet">
@@ -318,27 +319,13 @@
                     console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;", );
                 </script>
     </div>
-    <!--Leancloud 操作库:-->
-    <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库-->
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <div id="vcomments"></div>
     <script>
         new Valine({
-            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-            av: AV,
-            el: '.comment',
-            emoticon_url: 'https://cloud.panjunwen.com/alu',
-            emoticon_list: ["狂汗.png", "不说话.png", "汗.png", "坐等.png", "献花.png", "不高兴.png", "中刀.png", "害羞.png",
-                "皱眉.png", "小眼睛.png", "暗地观察.png"
-            ],
-            app_id: 'ocxyAR0y4kujoP74Hbd7T5wj-gzGzoHsz',
-            app_key: '3YJyyD429rdqOSKRnmLi9gtn',
-            placeholder: 'Write a Comment'
-        });
+            el: '#vcomments',
+            appId: 'ocxyAR0y4kujoP74Hbd7T5wj-gzGzoHsz',
+            appKey: 'Write a Comment'
+        })
     </script>
-    <!--评论显示区，请插入合适的位置-->
-    <div class="comment">
-    </div>
 </body>
 </html>
