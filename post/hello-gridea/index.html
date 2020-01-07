@@ -20,6 +20,7 @@
 <script src="https://ishuxun.com/media/script/script.min.js"></script>
 <script src="https://ishuxun.com/media/script/icon.min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://ishuxun.com/media/live2d/css/live2d.css" />
 <script src="https://cdn.bootcss.com/highlight.js/9.13.1/highlight.min.js"></script>
 <link href="https://cdn.bootcss.com/highlight.js/9.13.1/styles/atelier-estuary-dark.min.css" rel="stylesheet">
@@ -271,14 +272,33 @@
                             <a href="#">home</a>
                         </div>
                     </section>
-                    <div id="vcomments"></div>
+                    <!-- <div id="vcomments"></div>
                     <script>
                         new Valine({
                             el: '#vcomments',
                             appId: 'ocxyAR0y4kujoP74Hbd7T5wj-gzGzoHsz',
                             appKey: '3YJyyD429rdqOSKRnmLi9gtn'
                         })
-                    </script>
+                    </script> -->
+
+
+                    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+                    <!--Valine 的核心代码库-->
+                    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+                    <div class="comment"></div>
+                    <script>
+                    new Valine({
+                        // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+                        av: AV, 
+                        el: '.comment',
+                        lang: 'zh-cn',//设置评论语言
+                        emoticon_url: 'https://cloud.panjunwen.com/alu',
+                    emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
+                    app_id: 'ocxyAR0y4kujoP74Hbd7T5wj-gzGzoHsz',
+                    app_key: '3YJyyD429rdqOSKRnmLi9gtn',
+                    placeholder: '评论留言'
+                    });
+                    </script>    
                     <!--zh-->
                     <section class="post-tags zh">
                         <div>
