@@ -190,6 +190,7 @@
 <h2 id="联系我呀">📬 联系我呀</h2>
 
                     </div>
+                    
                     <section class="post-copyright en">
                         <!--en-->
                         <p class="copyright-item">
@@ -238,6 +239,14 @@
                             <a href="#">home</a>
                         </div>
                     </section>
+                    <div id="vcomments"></div>
+                    <script>
+                        new Valine({
+                            el: '#vcomments',
+                            appId: 'ocxyAR0y4kujoP74Hbd7T5wj-gzGzoHsz',
+                            appKey: 'Write a Comment'
+                        })
+                    </script>
                     <!--zh-->
                     <section class="post-tags zh">
                         <div>
@@ -257,20 +266,13 @@
                         
                         
                     </section>
+                    
                 </article>
             </div>
             
         </div>
     </div>
     </div>
-    <div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'ocxyAR0y4kujoP74Hbd7T5wj-gzGzoHsz',
-            appKey: 'Write a Comment'
-        })
-    </script>
     </div>
     
         <footer id="footer" class="footer">
