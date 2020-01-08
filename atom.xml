@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ishuxun.com</id>
     <title>ISHUXUN_树寻</title>
-    <updated>2020-01-08T15:46:31.443Z</updated>
+    <updated>2020-01-08T15:48:08.671Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ishuxun.com"/>
     <link rel="self" href="https://ishuxun.com/atom.xml"/>
@@ -23,6 +23,7 @@
 <p>👉[链接]（https://www.notion.so/shuxun/Blender2-8-b0f98dd7460f4b318242ed1170d147fe）<br>
 发鬼地方个</p>
 <!-- more -->
+<p>z这是一个链接<a href="www.baidu.com">kuaijiejian</a></p>
 ]]></content>
     </entry>
     <entry>
