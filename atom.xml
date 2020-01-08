@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ishuxun.com</id>
     <title>ISHUXUN_树寻</title>
-    <updated>2020-01-08T15:31:33.100Z</updated>
+    <updated>2020-01-08T15:38:44.101Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ishuxun.com"/>
     <link rel="self" href="https://ishuxun.com/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://ishuxun.com/images/avatar.png</logo>
     <icon>https://ishuxun.com/favicon.ico</icon>
     <rights>All rights reserved 2020, ISHUXUN_树寻</rights>
+    <entry>
+        <title type="html"><![CDATA[Blender快捷键汇总]]></title>
+        <id>https://ishuxun.com/post/blender-kuai-jie-jian-hui-zong</id>
+        <link href="https://ishuxun.com/post/blender-kuai-jie-jian-hui-zong">
+        </link>
+        <updated>2020-01-08T15:37:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>整理潮连你接等着😚👈👍</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>整理潮连你接等着😚👈👍</p>
+<!-- more -->
+<p>👉<a href="%E8%B6%85%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80" title="https://www.notion.so/shuxun/Blender2-8-b0f98dd7460f4b318242ed1170d147fe">超链接名</a></p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[标题测试13]]></title>
         <id>https://ishuxun.com/post/biao-ti-ce-shi-13</id>
