@@ -670,7 +670,7 @@ header label {
 
 .post-wrap p {
     font-size: 1em;
-    margin: 1em 0 1em 0
+    margin: 1em 0 1em 0;
 }
 
 .post-wrap .post-header h1 {
@@ -680,7 +680,7 @@ header label {
 .post-wrap .post-title {
     font-size: 1.2em;
     line-height: .8em;
-    margin-left: 35px;
+    display: inline-block;
 }
 
 .post-wrap .post-meta {
