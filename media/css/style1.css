@@ -60,3 +60,17 @@
 .archive-item-link .left p{
     color: rgb(146, 146, 146);
 }
+
+.matags{
+   display: inline-block;
+   width: 200px;
+   height: 70px;
+   margin-top: 10px;
+   border:1px solid #646464;
+   background-image: url('assets/media/img/Blender.png');
+   background-size: auto;
+}
+
+.matagscount{
+    font-size: 1em;
+}
