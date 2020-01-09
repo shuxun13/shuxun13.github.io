@@ -115,3 +115,27 @@
     width: 30px;
     margin-left: 10px;
 }
+
+
+.tagTitle{
+    font-size: 3em;
+}
+
+.hrTitle{
+        box-sizing: content-box;
+        overflow: visible;
+        background-color: #353535;
+        color: #d4d4d4;
+        height: 1px;
+        border: 0;
+        clear: both;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+.tagTitleBy{
+    font-size: 0.7em !important;
+    color: rgba(85, 85, 85, .529);
+}
+.tagTitle0 {
+    display: inline;
+}
