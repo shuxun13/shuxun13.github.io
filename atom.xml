@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ishuxun.com</id>
     <title>ISHUXUN_树寻</title>
-    <updated>2021-01-28T03:20:07.373Z</updated>
+    <updated>2021-01-28T03:24:30.799Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ishuxun.com"/>
     <link rel="self" href="https://ishuxun.com/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://ishuxun.com/images/avatar.png</logo>
     <icon>https://ishuxun.com/favicon.ico</icon>
     <rights>All rights reserved 2021, ISHUXUN_树寻</rights>
+    <entry>
+        <title type="html"><![CDATA[车市文史馆]]></title>
+        <id>https://ishuxun.com/post/che-shi-wen-shi-guan/</id>
+        <link href="https://ishuxun.com/post/che-shi-wen-shi-guan/">
+        </link>
+        <updated>2021-01-28T03:23:59.000Z</updated>
+        <content type="html"><![CDATA[<p>哈哈哈哈哈哈哈咔嚓咔嚓是不是好用你</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021年1月]]></title>
         <id>https://ishuxun.com/post/2021-nian-1-yue/</id>
